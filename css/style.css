@@ -2,3 +2,42 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+.container {
+  font-size: 22px;
+  text-align: center;
+  padding: 40px 40px;
+  text-transform: uppercase;
+}
+
+
+
+.preview-baku {
+  font-size: 16px;
+  text-align: left;
+  padding: 100px 80px;
+  text-transform: capitalize;
+
+}
+
+
+.preview-london {
+  font-size: 16px;
+  text-align: left;
+  padding: 100px 80px;
+  text-transform: capitalize;
+}
+
+.preview-madrid {
+  font-size: 16px;
+  text-align: left;
+  padding: 100px 80px;
+  text-transform: capitalize;
+}
+
+.preview-rome {
+  font-size: 16px;
+  text-align: left;
+  padding: 100px 80px;
+  text-transform: capitalize;
+}
