@@ -4,51 +4,135 @@ body {
 }
 
 .container {
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
-  padding: 40px 40px;
-  text-transform: uppercase;
 }
+
+.title {
+  padding: 50px 0px;
+  text-transform: uppercase;
+  font-family: system-ui, sans-serif;
+  font-size: 75%;
+}
+
 .preview-baku {
   font-size: 20px;
-
-
+  padding: 30px 30px;
   text-transform: capitalize;
-
-    background-image: url(/Users/matthewpavkov/Documents/GitHub/css-exercise-four/images/baku.jpg);
-
-    background-position: center;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    overflow: hidden;
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-
+  background-image: url(/Users/matthewpavkov/Documents/GitHub/css-exercise-four/images/baku.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  margin-bottom: 20px;
 }
 
+@media screen and (min-width: 575px){
+   .preview-baku {
+    margin: 1%;
+    width: 48%;
+  }
+}
 
-
+@media screen and (min-width: 991px){
+   .preview-baku {
+    margin: 1%;
+    width: 23.75%;
+  }
+}
 
 
 .preview-london {
-  font-size: 16px;
-  text-align: left;
-  padding: 100px 80px;
+  font-size: 20px;
+  padding: 30px 30px;
   text-transform: capitalize;
+  background-image: url(/Users/matthewpavkov/Documents/GitHub/css-exercise-four/images/london.png);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  margin-bottom: 20px;
 }
 
+@media screen and (min-width: 575px){
+   .preview-london {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   .preview-london {
+    margin: 1%;
+    width: 23.75%;
+  }
+}
+
+
 .preview-madrid {
-  font-size: 16px;
-  text-align: left;
-  padding: 100px 80px;
+  font-size: 20px;
+  padding: 30px 30px;
   text-transform: capitalize;
+  background-image: url(/Users/matthewpavkov/Documents/GitHub/css-exercise-four/images/madrid.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 575px){
+   .preview-madrid {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   .preview-madrid {
+    margin: 1%;
+    width: 23.75%;
+  }
 }
 
 .preview-rome {
-  font-size: 16px;
-  text-align: left;
-  padding: 100px 80px;
+  font-size: 20px;
+  padding: 30px 30px;
   text-transform: capitalize;
+  background-image: url(/Users/matthewpavkov/Documents/GitHub/css-exercise-four/images/rome.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 575px){
+   .preview-rome {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   .preview-rome {
+    margin: 1%;
+    width: 23.75%;
+  }
 }
