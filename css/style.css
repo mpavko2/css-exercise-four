@@ -10,7 +10,10 @@ body {
   text-transform: uppercase;
 }
 
-
+.image {
+  position: relative;
+  width: 100%;
+}
 
 .preview-baku {
   font-size: 16px;
