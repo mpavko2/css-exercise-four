@@ -9,19 +9,27 @@ body {
   padding: 40px 40px;
   text-transform: uppercase;
 }
-
-.image {
-  position: relative;
-  width: 100%;
-}
-
 .preview-baku {
-  font-size: 16px;
-  text-align: left;
-  padding: 100px 80px;
+  font-size: 20px;
+
+
   text-transform: capitalize;
 
+    background-image: url(/Users/matthewpavkov/Documents/GitHub/css-exercise-four/images/baku.jpg);
+
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
 }
+
+
+
 
 
 .preview-london {
