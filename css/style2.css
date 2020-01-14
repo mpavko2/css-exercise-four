@@ -6,10 +6,19 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+.title {
+  padding: 50px;
+  text-transform: uppercase;
+  font-family: system-ui, sans-serif;
+  font-size: 200%;
+  text-align: center;
+
+}
 
 .container{
 	width: 100%;
 	margin: 0 auto;
+
 }
 
 .container > h1 {
@@ -24,9 +33,11 @@ body {
 
 .preview {
 	width: 100%;
-	height: 300px;
+	height: 350px;
 	background-size: cover;
 	background-position: left;
+  margin-bottom: 20px;
+
 }
 
 .preview h1 {
@@ -49,6 +60,7 @@ body {
 
 .madrid{
 	background-image: url(../images/madrid.jpg);
+
 }
 
 @media (min-width: 600px) {
